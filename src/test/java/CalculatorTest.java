@@ -25,4 +25,10 @@ public class CalculatorTest {
         int result=Calculator.divide(10,5);
         Assert.assertEquals(result,2);
     }
+
+    @Test
+    public void testPower(){
+        int result=Calculator.power(2,2);
+        Assert.assertEquals(result,4);
+    }
 }

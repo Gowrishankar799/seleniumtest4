@@ -14,4 +14,12 @@ public class Calculator {
     public static int divide(int a, int b) {
         return a/b;
     }
+
+    public static int power(int a, int b) {
+        int ans=1;
+        for(int i=1;i<=b;i++){
+            ans*=a;
+        }
+        return ans;
+    }
 }
