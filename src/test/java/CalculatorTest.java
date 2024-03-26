@@ -37,4 +37,9 @@ public class CalculatorTest {
         int result=Calculator.max(1,2);
         Assert.assertEquals(result,2);
     }
+    @Test
+    public void testPower2(){
+        int result=Calculator.power(2,2);
+        Assert.assertEquals(result,4);
+    }
 }
