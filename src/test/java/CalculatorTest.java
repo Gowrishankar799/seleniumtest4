@@ -47,6 +47,11 @@ public class CalculatorTest {
         int result = Calculator.add(3, 5);
         Assert.assertEquals(result, 8);
     }
+    @Test
+    public void testAddd() {
+        int result = Calculator.add(3, 5);
+        Assert.assertEquals(result, 8);
+    }
 
     
 }
