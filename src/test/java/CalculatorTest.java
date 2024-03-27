@@ -57,6 +57,10 @@ public class CalculatorTest {
         int result=Calculator.divide(10,5);
         Assert.assertEquals(result,2);
     }
-
+    @Test
+    public void testDivision335(){
+        int result=Calculator.divide(10,5);
+        Assert.assertEquals(result,2);
+    }
     
 }
