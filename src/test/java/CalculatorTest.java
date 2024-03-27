@@ -52,6 +52,11 @@ public class CalculatorTest {
         int result = Calculator.add(3, 5);
         Assert.assertEquals(result, 8);
     }
+    @Test
+    public void testDivision33(){
+        int result=Calculator.divide(10,5);
+        Assert.assertEquals(result,2);
+    }
 
     
 }
